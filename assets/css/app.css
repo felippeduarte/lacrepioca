@@ -155,6 +155,12 @@ header {
     font-family: 'Dancing Script', cursive;
 }
 
+@media (max-width: 390px) {
+    .row-umaviagemnossabores h1 {
+        font-size: 10vw;
+    }
+}
+
 footer {
     background-color: #ffc254;
     color: black;

@@ -5,7 +5,7 @@ export default class Header extends Component {
     render() {
         const caption = (
             <div className="carousel-caption d-flex h-100 align-items-center justify-content-center">
-                <img src={logo} />
+                <img src={logo} className="img-fluid" />
             </div>
         );
 
