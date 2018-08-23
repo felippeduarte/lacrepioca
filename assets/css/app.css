@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+
+.navbar {
+    background-color: #0000001c !important;
+}
+
+.navbar-image {
+    width: 75px;
+    max-width: 75px;
+}
+
+header {
+    min-height: 350px;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat bottom right scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item.slide1 {
+    background-image: url('/assets/img/crepe.jpg');
+}
+
+.carousel-item.slide2 {
+    background-image: url('/assets/img/tapioca.jpg');
+}
+
+.carousel-item.slide3 {
+    background-image: url('/assets/img/slide3.jpg');
+}
+
+.carousel-item.slide4 {
+    background-image: url('/assets/img/slide4.jpg');
+}
+
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.7);
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.1, 1.1);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.carousel-item {
+    -webkit-animation: zoom 10s;
+    animation: zoom 10s;
+}
+
+.body-row {
+    background-color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+}
+
+.box-produtos {
+    margin: 10%;
+    padding: 10%;
+    border: 1px solid black;
+}
+
+.text-produtos p {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .box-produtos {
+        margin: 5%;
+        padding: 5%;
+    }
+}
+
+@media (min-width: 992px) {
+    .box-produtos {
+        margin: 10%;
+        padding: 10%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box-produtos {
+        margin: 15%;
+        padding: 10%;
+    }
+}
+
+.image-produtos {
+    width: 100%;
+}
+
+.cardapio {
+    background-color: #ffc254;
+    font-family: 'Dancing Script', cursive;
+}
+
+.titulo-cardapio {
+    border-bottom: 1px solid black;
+}
+
+.cardapio .cardapio-items {
+    padding-top: 15px;
+}
+
+.cardapio .produto-resumo {
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+.cardapio .produto-descricao {
+    font-size: 1.1rem;
+}
+
+.cardapio li, .cardapio .fa-li {
+    padding-top: 5px;
+}
+
+.instafeed-row {
+    background-image: url('/assets/img/bg-instafeed.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.instagallery-row {
+    padding: 10px;
+}
+
+.row-umaviagemnossabores {
+    background-color: #00000085;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+footer {
+    background-color: #ffc254;
+    color: black;
+}
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+footer .btn-social {
+    padding-top: 0px;
+    padding-bottom: 2px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.footer .copyright-container {
+    background-color: #f7a513;
+}
+
+.copyright {
+    padding-top: 2px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.copyright p {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 575.98px) {
+    .instagallery-row {
+        padding: 10px;
+        margin: 5%;
+    }
+}
