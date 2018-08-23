@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
 import '../assets/css/app.css';
-import Navbar from './Navbar';
 import Header from './Header';
 import Footer from './Footer';
 import InstaGallery from './InstaGallery';
 import Cardapio from './Cardapio';
+import crepe from '../assets/img/crepe.jpg';
+import tapioca from '../assets/img/tapioca.jpg';
 
 export default class App extends Component {
     render() {
         return (
             <div>
-                {/* <Navbar /> */}
                 <Header />
-
                 <div className="body-row">
                     <div className="row m-0">
                         <div className="col-xs-12 col-sm-6 p-0 order-12 order-sm-1">
-                            <img src="/assets/img/crepe.jpg" className="mh-100 mw-100 image-produtos" alt="Crepe" />
+                            <img src={crepe} className="mh-100 mw-100 image-produtos" alt="Crepe" />
                         </div>
                         <div className="col-xs-12 col-sm-6 order-1 order-sm-12">
                             <div className="row align-items-center h-100">
@@ -41,7 +40,7 @@ export default class App extends Component {
                             </div>
                         </div>
                         <div className="col-xs-12 col-sm-6 p-0">
-                            <img src="/assets/img/tapioca.jpg" className="mh-100 mw-100 image-produtos" alt="Tapioca" />
+                            <img src={tapioca} className="mh-100 mw-100 image-produtos" alt="Tapioca" />
                         </div>
                     </div>
                 </div>

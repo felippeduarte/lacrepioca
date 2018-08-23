@@ -24,19 +24,19 @@ header {
 }
 
 .carousel-item.slide1 {
-    background-image: url('/assets/img/crepe.jpg');
+    background-image: url('../img/crepe.jpg');
 }
 
 .carousel-item.slide2 {
-    background-image: url('/assets/img/tapioca.jpg');
+    background-image: url('../img/tapioca.jpg');
 }
 
 .carousel-item.slide3 {
-    background-image: url('/assets/img/slide3.jpg');
+    background-image: url('../img/slide3.jpg');
 }
 
 .carousel-item.slide4 {
-    background-image: url('/assets/img/slide4.jpg');
+    background-image: url('../img/slide4.jpg');
 }
 
 .carousel-item:after {
@@ -140,7 +140,7 @@ header {
 }
 
 .instafeed-row {
-    background-image: url('/assets/img/bg-instafeed.jpg');
+    background-image: url('../img/bg-instafeed.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

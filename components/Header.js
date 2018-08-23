@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import logo from '../assets/img/logo.png';
 
 export default class Header extends Component {
     render() {
         const caption = (
             <div className="carousel-caption d-flex h-100 align-items-center justify-content-center">
-                <img src="/assets/img/logo.png" />
+                <img src={logo} />
             </div>
         );
 

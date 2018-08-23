@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import truck from '../assets/img/truck.png';
 
 export default class Cardapio extends Component {
 
@@ -76,7 +77,7 @@ export default class Cardapio extends Component {
                         </div>
                         <div className="row">
                             <div className="col-12 p-4">
-                                <img className="img-fluid" src="/assets/img/truck.png" />
+                                <img className="img-fluid" src={truck} />
                             </div>
                         </div>
                     </div>

@@ -24,12 +24,16 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: [ 'style-loader', 'css-loader' ]
+                use: [ 'style-loader', 'css-loader' ],
+                include: path.join(__dirname, 'assets/css'),
             },
             {
                 test: /\.(png|jpg)$/,
                 include: path.join(__dirname, 'assets/img'),
-                loader: 'file-loader'
+                loader: 'file-loader',
+                options: {
+                    name: '[path][name]-[hash:8].[ext]'
+                },
              }
         ]
     },
